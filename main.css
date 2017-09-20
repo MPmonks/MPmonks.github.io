@@ -1,3 +1,8 @@
 body {
+	font-family:'Verdana', sans-serif;
+}
+
+#header {
 	font-family: 'Catamaran', 'Verdana', sans-serif;
+	text-align: center;
 }
