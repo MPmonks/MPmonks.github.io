@@ -1,8 +1,42 @@
 body {
 	font-family:'Verdana', sans-serif;
+    position: top;
+    height: 100%;
+}
+
+header {
+    
+    float: top; 
+    border-style: solid;
+    border-color: #212526;
+    border-width: 2px;
+    width: 100%;
+    padding-top: 30%;
+    position: relative;
+
+
+    margin-top: none;
+
+    
+    background-color: #B4C4C7;
+    background-image: url("patrick-fore-359608.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+
+.bio {
+
 }
 
 #name {
-	font-family: 'Times New Roman', 'Verdana', sans-serif;
-	text-align: center;
+    opacity: 1;
+    font-family: 'Catamaran', 'Verdana', sans-serif;
+    color: white;
+    font-size: 450%;
+    text-align: center;
+    padding-bottom: none;
+    margin-bottom: none;
+    background-attachment: fixed;
+
 }
