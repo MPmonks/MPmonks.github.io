@@ -1,80 +1,29 @@
 body {
-	font-family:'Catamaran', sans-serif;
-    position: top;
-    background-color: #B4C4C7;
-    background-image: url("patrick-fore-359608.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 100%;
-    min-width: 100%;
-    width: 100vw;
-    height: 100vh;
-    max-height: 100vh;
-
+    max-height: vh;
+    max-width: vw;
 }
 
-header {
-    padding-top: 23%;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-}
-
-.buttons {
-    vertical-align: top;
-    font-family: "Catamaran";
-    font-size: 2vw;
-    display: inline-block;
-    padding-top: none;
-    margin-top: 0;
-
-}
-
-
-#biography {
-    display: inline-block;
-    margin-right: 0.5vw;
-    color: white;
-    border: 1px solid white;
+.banner {
+    height: 15vh;
     text-align: center;
-    outline: none;
-    text-decoration: none;
-    padding: 0.75vw;
-    margin-top: 0;
-}
-#resume {
-    display: inline-block;
-    margin-right: 0.5vw;
-    color: white;
-    border: 1px solid white;
-    text-align: center;
-    outline: none;
-    text-decoration: none;
-    padding: 0.75vw;
-    margin-top: 0;
-}
-#connect {
-    display: inline-block;
-    color: white;
-    border: 1px solid white;
-    text-align: center;
-    outline: none;
-    text-decoration: none;
-    padding: 0.75vw;
-    margin-top: 0;
+    font-family: 'Catamaran';
 }
 
-#name {
-    opacity: 1;
-    font-family: 'Catamaran', 'Verdana', sans-serif;
-    color: white;
-    display: flex;
-    justify-content: center;
-    justify-content: bottom;
-    font-size: 8vw;
-    text-align: center;
-    padding-bottom: none;
-    margin-bottom: none;
-    background-attachment: fixed;
+.h1 {
+    font-size: 10%;
+}
 
+
+img {
+    max-width: 100%;
+    max-height: 80vh; 
+    opacity: 0.4;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#portrait {
+    background-color: #2E2F41;
 }
