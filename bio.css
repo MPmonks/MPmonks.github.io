@@ -1,8 +1,7 @@
 body {
     font-family: 'Catamaran', 'Verdana', sans-serif;
-    position: top;
-    max-height: vh;
-    max-width: vw;
+    max-height: 100%;
+    max-width: 100%;
 
 }
 
@@ -18,12 +17,12 @@ body {
     margin-left: 1vw;
 }
 a:link {
-    color: black;
+    color: #3B4244;
     text-decoration: none;
 }
 
 a:visited {
-    color: black;
+    color: #3B4244;
     text-decoration: none;
 }
 
@@ -50,5 +49,5 @@ a:visited {
     margin-bottom: 0px;
     margin-top: 0px;
     font-size: 3em;
-    width: vw;
+    width: 100%;
 }

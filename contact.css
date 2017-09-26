@@ -10,12 +10,12 @@
     margin-left: 1vw;
 }
 a:link {
-    color: black;
+    color: #3B4244;
     text-decoration: none;
 }
 
 a:visited {
-    color: black;
+    color: #3B4244;
     text-decoration: none;
 }
 
@@ -28,4 +28,14 @@ body {
     flex-direction:row;
     justify-content: space-around;
     text-align: center;
+    margin-top: 17vh;
+}
+
+.elements h1 {
+    font-size: 2.7em;
+}
+
+.elements h2 {
+    font-size: 1.7em;
+    color: #3B4244;
 }

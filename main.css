@@ -1,6 +1,6 @@
 body {
-    max-height: vh;
-    max-width: vw;
+    max-height: 100%;
+    max-width: 100%;
     background-color: #696A76;
 
 }
@@ -37,7 +37,7 @@ h1 {
     font-family: 'Catamaran', 'Verdana', sans-serif;
     font-size: 1em;
     display: inline-block;
-    padding-top: none;
+    padding-top: 0px;
     margin-top: 0;
     text-decoration: none;
     justify-content: center;
