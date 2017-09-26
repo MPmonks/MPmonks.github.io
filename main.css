@@ -27,14 +27,14 @@ h1 {
     margin-bottom: 0px;
     vertical-align: top;
     text-align: center;
-    font-family: 'Catamaran';
+    font-family: 'Catamaran', 'Verdana', sans-serif;
     color: white;
     opacity: 1;
 }
 
 .buttons {
     vertical-align: top;
-    font-family: "Catamaran";
+    font-family: 'Catamaran', 'Verdana', sans-serif;
     font-size: 1em;
     display: inline-block;
     padding-top: none;
@@ -95,13 +95,3 @@ a:visited {
     text-decoration: none;
 }
 
-.links {
-    font-family: 'Catamaran';
-    display: flex;
-    flex-direction: row;
-}
-
-.links h2 {
-    display: inline-block;
-    margin-right: 0.5vw;
-}

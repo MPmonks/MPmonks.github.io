@@ -1,5 +1,5 @@
 body {
-    font-family:'Catamaran', sans-serif;
+    font-family: 'Catamaran', 'Verdana', sans-serif;
     position: top;
     max-height: vh;
     max-width: vw;
@@ -7,7 +7,7 @@ body {
 }
 
 .links {
-    font-family: 'Catamaran';
+    font-family: 'Catamaran', 'Verdana', sans-serif;
     display: flex;
     flex-direction: row;
 }
