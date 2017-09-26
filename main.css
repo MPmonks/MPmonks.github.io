@@ -94,3 +94,14 @@ a:visited {
     color: white;
     text-decoration: none;
 }
+
+.links {
+    font-family: 'Catamaran';
+    display: flex;
+    flex-direction: row;
+}
+
+.links h2 {
+    display: inline-block;
+    margin-right: 0.5vw;
+}

@@ -1,10 +1,53 @@
 body {
     font-family:'Catamaran', sans-serif;
     position: top;
-    min-height: 100%;
-    min-width: 100%;
-    width: 100vw;
-    height: 100vh;
-    max-height: 100vh;
+    max-height: vh;
+    max-width: vw;
 
+}
+
+.links {
+    font-family: 'Catamaran';
+    display: flex;
+    flex-direction: row;
+}
+
+.links h2 {
+    display: inline-block;
+    margin-right: 0.5vw;
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.realstuff {
+    display: flex;
+    margin-left: 10vw;
+    width: 40vw;
+    flex-direction: column;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.text {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+#name {
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 3em;
+    width: vw;
 }
