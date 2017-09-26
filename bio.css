@@ -14,7 +14,8 @@ body {
 
 .links h2 {
     display: inline-block;
-    margin-right: 0.5vw;
+    margin-right: 1vw;
+    margin-left: 1vw;
 }
 a:link {
     color: black;
