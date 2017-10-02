@@ -28,11 +28,15 @@ a:visited {
 
 .realstuff {
     display: flex;
-    margin-left: 10vw;
-    width: 40vw;
+    width: 70%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
     flex-direction: column;
     padding-right: 0px;
     padding-left: 0px;
+    align-items: center;
+    justify-content: center;
 }
 
 .text {
@@ -54,4 +58,5 @@ a:visited {
 
 #point {
     padding-top: 10px;
+    text-align: center;
 }
