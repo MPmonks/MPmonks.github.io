@@ -1,25 +1,11 @@
 body {
+    font-family: "Lora";
     max-height: 100%;
     max-width: 100%;
-    background-color: #696A76;
-
-}
-
-#portrait img {
-  min-height: 100%;
-  min-width: 1024px;
-  width: 100%;
-  height: auto;
-  position: fixed;
-  top: 0;
-  left: 0;
-  opacity: 0.25;
-  z-index: -1;
-
+    color: black;
 }
 
 h1 {
-
     font-size: 5em;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -27,14 +13,14 @@ h1 {
     margin-bottom: 0px;
     vertical-align: top;
     text-align: center;
-    font-family: 'Catamaran', 'Verdana', sans-serif;
-    color: white;
+    font-family: 'Lora' , 'Verdana', sans-serif;
+    color: #07520D;
     opacity: 1;
 }
 
 .buttons {
     vertical-align: top;
-    font-family: 'Catamaran', 'Verdana', sans-serif;
+    font-family: 'Lora', 'Verdana', sans-serif;
     font-size: 1em;
     display: inline-block;
     padding-top: 0px;
@@ -44,7 +30,6 @@ h1 {
     text-align: center;
     display: flex;
     flex-direction: row;
-    color: white;
     text-decoration: none;
 }
 
@@ -52,20 +37,16 @@ h1 {
     display: inline-block;
     margin-right: 1vw;
     color: white;
-    border: 1px solid white;
     text-align: center;
     outline: none;
     text-decoration: none;
     padding: 0.75vw;
     margin-top: 0;
-
 }
 
 #resume {
     display: inline-block;
     margin-right: 1vw;
-    color: white;
-    border: 1px solid white;
     text-align: center;
     outline: none;
     text-decoration: none;
@@ -76,8 +57,6 @@ h1 {
 #connect {
     display: inline-block;
     margin-right: 0.5vw;
-    color: white;
-    border: 1px solid white;
     text-align: center;
     outline: none;
     text-decoration: none;
@@ -86,12 +65,12 @@ h1 {
 }
 
 a:link {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
 a:visited {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
