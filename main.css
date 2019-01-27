@@ -3,6 +3,10 @@ body {
     max-height: 100%;
     max-width: 100%;
     color: black;
+    background-image: url("mountains.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: gray;
 }
 
 h1 {
@@ -14,7 +18,6 @@ h1 {
     vertical-align: top;
     text-align: center;
     font-family: 'Lora' , 'Verdana', sans-serif;
-    color: #07520D;
     opacity: 1;
 }
 
@@ -36,7 +39,6 @@ h1 {
 #about {
     display: inline-block;
     margin-right: 1vw;
-    color: white;
     text-align: center;
     outline: none;
     text-decoration: none;
@@ -65,12 +67,11 @@ h1 {
 }
 
 a:link {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 a:visited {
-    color: black;
+    color: white;
     text-decoration: none;
 }
-
